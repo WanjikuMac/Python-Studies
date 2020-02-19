@@ -10,7 +10,7 @@ def convert(my_weight):
     return (my_weight * 1)/ 0.45359237
     
 
-#print(f"Let's talk about {my_name}.")
+print(f"Let's talk about {my_name}.")
 print("He's {} inches tall.".format(my_height))
 print("He's {} kgs heavy.".format(my_weight))
 print("Actually that's not too heavy")
