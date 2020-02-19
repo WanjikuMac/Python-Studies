@@ -17,5 +17,5 @@ end11 = "e"
 end12 = "r"
 #doesb't work with this print(end1 + end2 + end3 + end4 + end5 + end6, end='')
 
-print(end1 + end2 + end3 + end4 + end5 + end6)
+print(end1 + end2 + end3 + end4 + end5 + end6, end=' ')
 print(end7 + end8 + end9 + end10 + end11 + end12)
