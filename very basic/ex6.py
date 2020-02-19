@@ -10,3 +10,9 @@ w = "This is the left side of...."
 e = "a string with a right side"
 
 print(w + e)
+binary = "binary"
+do_not = "don't"
+
+y = "Those who know {} and those who {}".format(binary, do_not)
+
+print(y)
