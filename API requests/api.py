@@ -14,3 +14,13 @@ def jprint(obj):
     print(text)
 
 jprint(response.json())
+
+#make an API request with params
+parameters = {
+    "lat": 40.71,
+    "lon": -74 
+}
+
+response = requests.get("http://api.open-notify.org/iss-pass.json", parameters)
+jprint(response.json())
+
