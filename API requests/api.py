@@ -31,6 +31,14 @@ jprint(response.json())
 pass_times =response.json()['response']
 jprint(pass_times)
 
+
+durations =[]
+for z in pass_times:
+    dur = z['duration']
+    durations.append(dur)
+
+print(durations)
+
 risetimes = []
 for d in pass_times:
     time = d['risetime']
