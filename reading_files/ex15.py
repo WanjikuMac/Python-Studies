@@ -1,5 +1,6 @@
 from sys import argv
-
+#can you read a file in a different directory from
+#this python script
 script, filename = argv
 
 txt = open(filename)
