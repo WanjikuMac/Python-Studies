@@ -27,3 +27,7 @@ print("Here is a puzzle")
 what = add(age,subtract(height, multiply(weight, divide(iq,5))))
 
 print("That becomes: ", what, "can you do it by hand?")
+
+#ADDING A FORMULA
+formula = divide(add(24,34), subtract(100,1023))
+print("Result: ", formula)
