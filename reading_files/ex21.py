@@ -29,5 +29,8 @@ what = add(age,subtract(height, multiply(weight, divide(iq,5))))
 print("That becomes: ", what, "can you do it by hand?")
 
 #ADDING A FORMULA
-formula = divide(add(24,34), subtract(100,1023))
+print("Enter a number:")
+val1 = int(input())
+val2 = int(input())
+formula = divide(add(val1,34), subtract(100,val2))
 print("Result: ", formula)
