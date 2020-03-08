@@ -19,7 +19,7 @@ five = 10 -  + 3 - 6
 print(f"This should be five: {five}")
 
 def secret_formula(started):
-    jelly_beans = started* 500
+    jelly_beans = started * 500
     jars = jelly_beans/100
     crates =jars/100
     return jelly_beans, jars, crates
