@@ -9,6 +9,8 @@ if door == "1":
     print("1. Take the cake")
     print("2. Scream at the bear")
 
+    # figure out how to handle cases that are not 1 or 2
+    # in a more robust way
     bear = input("> ")
 
     if bear == "1":
