@@ -27,7 +27,7 @@ print("OR State has: ", cities['OR'])
 #print some states
 print('-' * 10)
 print("Michigan's abbreviation is: ", states['Michigan'])
-print("Florida's abbreviation is ", cities['OR'])
+print("Florida's abbreviation is ", states['Florida'])
 
 #do it by using the state then cities dict
 print('-' * 10)
@@ -41,14 +41,14 @@ for state, abbrev in list(states.items()):
 
 #print every city in state
 print('-' * 10)
-for abbrev, city in list(states.items()):
-    print(f"{state} state is abbreviated {abbrev}")
+for abbrev, city in list(cities.items()):
+    print(f"{abbrev} has the city {city}")
 
 #now do both at the same time
 print('-' * 10)
 for state, abbrev in list(states.items()):
     print(f"{state} state is abbreviated {abbrev}")
-    print(f"anf had city {cities[abbrev]}")
+    print(f"and had city {cities[abbrev]}")
 
 print('-' * 10)
 #safely get abbreviations by state that might not be there 
