@@ -1,7 +1,7 @@
 #create a mapping of state to abbreviation
 
 states = {
-    'Oregon':'OR',
+    'Nairobi':'Nai',
     'Florida': 'FL',
     'California': 'CA',
     'New York': 'NY',
@@ -17,12 +17,12 @@ cities =  {
 
 #add some more cities
 cities['NY'] = 'New York'
-cities['OR'] = 'Portland'
+cities['Nai'] = 'UpperHill'
 
 #print some cities 
 print('-' * 10)
 print("NY State has: ", cities['NY'])
-print("OR State has: ", cities['OR'])
+print("Nai State has: ", cities['Nai'])
 
 #print some states
 print('-' * 10)
