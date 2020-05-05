@@ -12,7 +12,7 @@ sum_multiples(Number) ->
                when (X rem 3 =/= 0) or (X rem 5 =/= 0) -> 0
         end,
        Z =  lists:map(V, Number),
-        sum(Z).
+        lists:sum(Z).
 
 sum(L) -> sum(L, 0).
 
